@@ -1,10 +1,146 @@
+body {
+
+   font-family: 'Open Sans',  "sans-serif";
+   font-size: 14px;
+}
+
+
 
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+  
+h2 {
+
+   font-family: Lora, "sans-serif";
+   font-size: 32px;
+   margin-top: 1px;
+
+
+}
+
+
+
+ 
+/*************************************************************/
+/* Feature Styles*/
+/*************************************************************/
+
+
+ 
+.feature {
+
+   background-color: #d9eefd;
+   position: relative;
+   padding: 25px;
+   text-align: justify;
+   color: #4d4d4d;
+   height: 250px;
+
+
+}
+
+
+#socialrow {
+
+  height: 45px;
+  text-align: justify;
+  
+}
+
+#socialrow i {
+   display: inline-block;
+
+}
+
+#socialrow a i {
+  
+  transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
    
+}
+
+#socialrow a:hover i {
+  
+ opacity: .5;
+   
+}
+
+
+
+#socialrow a {
+
+   text-decoration: none;
+}
+
+#socialrow:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
+
+#socialrow i.fa-twitter-square{
+
+   color: #00acee;
+}
+#socialrow i.fa-facebook-square{
+
+  color: #3b5998;
+}
+#socialrow i.fa-youtube-play{
+
+  color: #c4302b;
+}
+#socialrow i.fa-fa-linkedin-square{
+
+  color: #0e76a8;
+}
+#socialrow i.fa-rss-square{
+
+  color: #ee802f;
+}
+
+.search input[type="text"] {
+
+   border: 1px solid #a1a1a1;
+   background-color: #fff;
+   border-radius: 10px;
+   padding-left: 8px;
+   margin-top: 8px;
+   line-height: 28px;
+
+}
+
+#submit {
+ color: #fff;
+ 
+ border: none;
+ margin: 0;
+ padding: 5px;
+ width: 60px;
+ font-size: 12px;
+ background: #34495E ; 
+}
+
+
+
+
+
+
+
+
+
+
+/*************************************************************/
+/*  Footer Styles*/
+/*************************************************************/
+
+
+
   
 
    footer {
@@ -14,10 +150,10 @@
    	border-top: 3px #2c3e50 solid;
    	font-family: 'Open Sans', sans-serif;
    	font-size: 16px;
-	position: fixed;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
+   	position: relative;
+   	bottom: 0px;
+   	left: 0px;
+   	right: 0px;
 
    }
 
