@@ -1,7 +1,7 @@
 body {
 
    font-family: 'Open Sans',  "sans-serif";
-   font-size: 14px;
+   font-size: 16px;
 }
 
 
@@ -11,6 +11,13 @@ body {
    Author's custom styles
    ========================================================================== */
 
+h1 {
+
+  font-family: Lora, "sans-serif";
+  font-size: 100px;
+  color: #4d4d4d;
+
+}
   
 h2 {
 
@@ -21,6 +28,50 @@ h2 {
 
 }
 
+h4 {
+
+   font-family: "Open Sans", "sans-serif";
+   font-size: 16px;
+   font-weight: bolder;
+}
+
+ 
+/*************************************************************/
+/* Impact Stories */
+/*************************************************************/
+
+
+.metadata {
+
+  font-size: 14px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.impactcontainer h3 {
+
+  color: #3fa9f5;
+  font-weight: bolder;
+
+
+}
+
+.impactcontainer h4 {
+
+  line-height: 1.5em;
+}
+
+.updates {
+
+  padding: 10px;
+  border-bottom: 1px #3fa9f5 solid;
+}
+
+.impactcontainer {
+
+  border-bottom: 20px;
+  margin-bottom: 50px;
+}
 
 
  
@@ -28,19 +79,67 @@ h2 {
 /* Feature Styles*/
 /*************************************************************/
 
+.featurecontainer {
+  margin: 30px 5px;
+  position: relative;
+  display: block;
+  
+}
 
  
 .feature {
 
    background-color: #d9eefd;
-   position: relative;
    padding: 25px;
    text-align: justify;
    color: #4d4d4d;
    height: 250px;
 
-
 }
+
+ 
+/*************************************************************/
+/* Leader Styles */
+/*************************************************************/
+
+
+ .leader {
+
+ 
+  
+  position: relative;
+  display: block;
+
+ }
+
+.leadercontainer {
+
+  border-top: 2px #4d4d4d solid;
+  border-bottom: 1px #4d4d4d solid;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+
+.leadercontainer h2 {
+
+  padding-top: 30px;
+}
+.leadercontainer p {
+
+  text-align: justify;
+}
+
+
+
+
+ 
+/*************************************************************/
+/*  Social Icon Row */
+/*************************************************************/
+
+
+
 
 
 #socialrow {
@@ -133,8 +232,6 @@ h2 {
 
 
 
-
-
 /*************************************************************/
 /*  Footer Styles*/
 /*************************************************************/
@@ -145,27 +242,27 @@ h2 {
 
    footer {
 
-   	background-color: #ecf0f1;
-   	color: #4d4d4d;
-   	border-top: 3px #2c3e50 solid;
-   	font-family: 'Open Sans', sans-serif;
-   	font-size: 16px;
-   	position: relative;
-   	bottom: 0px;
-   	left: 0px;
-   	right: 0px;
+    background-color: #ecf0f1;
+    color: #4d4d4d;
+    border-top: 3px #2c3e50 solid;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 
    }
 
    footer li {
 
-   	list-style-type: none;
+    list-style-type: none;
    }
 
    footer li.title {
 
-   	font-weight: bold;
-   	margin: 20px 0 20px 0;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
    }
 
 
