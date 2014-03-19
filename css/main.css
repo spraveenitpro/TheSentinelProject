@@ -559,6 +559,25 @@ color: #fff;
 
 
 
+ 
+/*************************************************************/
+/* Inner Page Styles */
+/*************************************************************/
+
+
+ .inner-page p{
+  
+  text-align: justify;
+
+ }
+
+ .inner-page img {
+  
+ -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+
+ }
 
 
 
