@@ -604,6 +604,22 @@ color: #fff;
   border-bottom: 2px #c1272d solid;
   padding: 0 0 1em 2em;
 }
+
+.team h2{
+  
+  margin: 1em 2em 1em 1em;
+
+}
+
+.team {
+
+  border-bottom: 2px grey solid;
+}
+
+.team-member {
+
+  margin: 2em 2em 2em 1em;
+}
  
 
 
