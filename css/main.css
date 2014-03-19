@@ -574,7 +574,7 @@ color: #fff;
 /*************************************************************/
 
 
- .inner-page p , .what-we-do p{
+ .inner-page p , .what-we-do p, .who-we-are p{
   
   text-align: justify;
 
@@ -593,7 +593,18 @@ color: #fff;
  }
 
 
+ 
+/*************************************************************/
+/* Who we are Styles */
+/*************************************************************/
 
+.who-we-are {
+
+  border-top: 2px #c1272d solid;
+  border-bottom: 2px #c1272d solid;
+  padding: 0 0 1em 2em;
+}
+ 
 
 
 
