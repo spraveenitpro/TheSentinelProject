@@ -1,9 +1,10 @@
 body {
 
    font-family: 'Open Sans',  "sans-serif";
-   font-size: 16px;
-   padding:0;
+   font-size: 1.5em;
    margin:0;
+   padding-top: 0px;
+   padding-bottom: 0px;
 }
 
 
@@ -59,6 +60,7 @@ margin: 0;
   padding: 30px 30px 15px 50px;
 
 }
+
 
 .mainmenu {
 
@@ -219,6 +221,25 @@ color: #fff;
   background:url("../img/search.png") no-repeat scroll right center transparent;
 }
 
+
+
+form.form-search {
+    position: relative;
+}
+
+form.form-search:before {
+    content:'';
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-image: url(http://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png);
+    background-position: -48px 0;
+    position: absolute;
+    top:70px;
+    left:196px;
+    opacity: .5;
+    z-index: 1000;
+}
 
 
  
@@ -420,7 +441,7 @@ color: #fff;
 
 .feature #socialrow i {
 
-  font-size: 56px;
+  font-size: 4em;
 }
 
 
@@ -638,11 +659,13 @@ color: #fff;
     border-top: 3px #2c3e50 solid;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    position: relative;
+    height: 100%;
+
+    /*position: relative;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    height: 400px;
+    height: 400px*/;
 
    }
 
@@ -692,6 +715,148 @@ color: #fff;
 
 
 
+ 
+/*************************************************************/
+/* Responsiveness Fixes */
+/*************************************************************/
+
+@media (min-width: 1200px) {
+
+ footer {
+    height: 400px;
+  }
 
 
+}
+ 
+
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+
+  .header .logo  {
+
+    width: 50%;
+  }
+
+  .header .logo img {
+
+    width: 100%;
+  }
+
+  .header .mainmenu {
+
+    width: 50%;
+  }
+
+  body {
+    font-size: 1.2em; /* 1.2x default size */
+  }
+
+  footer {
+    height: 400px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .header .logo  {
+
+    width: 100%;
+    display: block;
+  }
+
+  .header .logo img {
+
+    width: 100%;
+  }
+
+  .header .mainmenu {
+
+   display: none;
+
+  }
+
+  form.form-search {
+
+    display: none;
+  }
+
+  body {
+
+    font-size: 1.8em; /* 0.8x default size */
+  }
+  .feature #socialrow i {
+    font-size: 2.5em;
+  }
+
+  .col-md-4 .feature {
+    font-size: 0.6em;
+
+  }
+
+  
+}
+
+
+@media (min-width: 401px) and (max-width: 767px) {
+
+    .header .logo  {
+
+    width: 100%;
+    display: block;
+  }
+
+  .header .logo img {
+
+    width: 100%;
+    height: 40px;
+  }
+
+  .header .mainmenu {
+
+   display: none;
+
+}
+
+.navbar-nav li a {
+
+  width: 100%;
+  text-align: center;
+  height: 20px;
+}
+
+.slider , .your-class  {
+
+  display: none;
+}
+body {
+    
+    font-size: 1.8em; /* 0.8x default size */
+  }
+
+  .leadercontainer {
+    border-top: 1px #666666 solid;
+    padding-top: 40px;
+    margin-top: 120px;
+ 
+}
+
+.navbar-custom .navbar-nav > li > a {
+
+  padding: 0;
+}
+  
+}
+
+
+@media (max-width: 400px)  {
+
+   
+
+
+
+
+  
+}
 
